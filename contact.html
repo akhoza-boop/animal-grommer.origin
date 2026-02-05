@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | PetGroomer.</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="nav-container">
+            <a href="index.html" class="logo">Pet<span>Groomer.</span></a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <section class="container">
+            <div class="section-title">
+                <h1>Let's Get in Touch</h1>
+                <p>Have a question about our services or want to book a session for your furry friend? Reach out to us
+                    via the form or through our contact details below.</p>
+            </div>
+
+            <div class="contact-grid">
+                <!-- CONTACT INFO SECTION -->
+                <section class="info-section">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"
+                            style="color: var(--secondary); font-size: 1.5rem; margin-bottom: 1rem;"></i>
+                        <h3>Visit Our Spa</h3>
+                        <p>Granvia de les corts catalanes,618<br>GT 12345, Spain</p>
+                    </div>
+
+                    <div class="info-item">
+                        <i class="fas fa-phone-alt"
+                            style="color: var(--secondary); font-size: 1.5rem; margin-bottom: 1rem;"></i>
+                        <h3>Call or Email</h3>
+                        <p>Support: +346724567830<br>Booking: hello@petgroomer.com</p>
+                    </div>
+
+                    <div class="info-item">
+                        <i class="fas fa-clock"
+                            style="color: var(--secondary); font-size: 1.5rem; margin-bottom: 1rem;"></i>
+                        <h3>Business Hours</h3>
+                        <p>Mon - Fri: 10:00 AM - 6:00 PM<br>Sat: 9:00 AM - 4:00 PM<br>Sun: Closed</p>
+                    </div>
+                </section>
+
+                <!-- CONTACT FORM SECTION -->
+                <section class="form-section">
+                    <form action="#" method="post">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" placeholder="Ex: Sarah Johnson" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" placeholder="example@email.com" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="service">Requested Service</label>
+                            <select id="service" name="service" required>
+                                <option value="" disabled selected>Select a Service</option>
+                                <option value="essential">The Essential (€35)</option>
+                                <option value="royal">The Full Royal (€65)</option>
+                                <option value="puppy">Puppy's First Spa (€45)</option>
+                                <option value="nails">Nail Trim & Buff (€15)</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" name="message" rows="5"
+                                placeholder="Tell us more about your pet (breed, age, specific needs)..."></textarea>
+                        </div>
+
+                        <button type="submit" class="btn" style="width: 100%;">Send Message</button>
+                    </form>
+                </section>
+            </div>
+        </section>
+
+        <!-- MAP PLACEHOLDER -->
+        <div
+            style="width: 100%; height: 400px; background: #eee; border-top: 1px solid #ddd; display: flex; align-items: center; justify-content: center; color: #999;">
+            <div style="text-align: center;">
+                <i class="fas fa-map" style="font-size: 3rem; margin-bottom: 1rem;"></i>
+                <p>Interactive Map Integration Placeholder</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-socials">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+            <div style="text-align: center;">
+                <p>Granvia de les corts catalanes 618, GT 12345 , S</p>
+                <div class="footer-bottom">
+                    <p>&copy; 2026 PetGroomer. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
